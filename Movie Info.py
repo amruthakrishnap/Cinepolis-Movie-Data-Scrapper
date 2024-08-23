@@ -82,12 +82,12 @@ def save_to_csv(data_list, csv_file_path='cinepolis_movie_data.csv'):
 
 if __name__ == "__main__":
     city_referer_pairs = {
-        # "santiago-poniente-y-norte": "https://cinepolischile.cl/cartelera/santiago-poniente-y-norte/",
+        "santiago-poniente-y-norte": "https://cinepolischile.cl/cartelera/santiago-poniente-y-norte/",
         "sur-de-chile": "https://cinepolischile.cl/cartelera/sur-de-chile/",
-        # "santiago-sur": "https://cinepolischile.cl/cartelera/santiago-sur/",
-        # "santiago-oriente": "https://cinepolischile.cl/cartelera/santiago-oriente/",
-        # "santiago-centro": "https://cinepolischile.cl/cartelera/santiago-centro/",
-        # "norte-y-centro-de-chile": "https://cinepolischile.cl/cartelera/norte-y-centro-de-chile/",
+         "santiago-sur": "https://cinepolischile.cl/cartelera/santiago-sur/",
+         "santiago-oriente": "https://cinepolischile.cl/cartelera/santiago-oriente/",
+         "santiago-centro": "https://cinepolischile.cl/cartelera/santiago-centro/",
+         "norte-y-centro-de-chile": "https://cinepolischile.cl/cartelera/norte-y-centro-de-chile/",
     }
 
     all_data = []
